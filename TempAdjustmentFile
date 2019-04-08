@@ -1,0 +1,107 @@
+#customers tr:hover {background-color: #455D7D;}
+#customers tr:hover {color: #FFFFFF;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7995BB;
+  color: white;
+}
+.search{
+	display: block;
+    float: left;
+}
+</style>
+</head>
+<body>
+
+  <div class="search">
+    <form action="search">
+      <br>
+      <input type="search" name="" value="Invoice #/Customer Name/Corp ID">
+  </div>
+  <div class="search">
+        View:
+        <input type="text" name="lastname" value="Mouse">
+        <input type="submit" value="Go">
+      </form> 
+  </div>
+
+<table id="customers">
+  <tr>
+    <th>Invoice #</th>
+    <th>Invoice Date</th>
+    <th>Customer Name</th>
+    <th>Corporate ID</th>
+    <th>Amount ($)</th>
+    <th>Balance ($)</th>    
+  </tr>
+  <tr>
+    <td>37-0319634</td>
+    <td>11/17/2018</td>
+    <td>DELTA DENTAL</td>
+   	<td>00910054001</td>
+    <td>1,644.75</td>
+    <td>1,644.75</td>    
+  </tr>
+  <tr>
+    <td>18-0319609</td>
+    <td>11/17/2018</td>
+    <td>Delta Hardwood Floors</td>
+   	<td>CA910054000</td>
+    <td>557.75</td>
+    <td>557.55</td>  
+  </tr>
+  <tr>
+    <td>20-0349571</td>
+    <td>11/17/2018</td>
+    <td>Universal Delta Tours Inc</td>
+   	<td>0094570742630</td>
+    <td>2,841.00</td>
+    <td>2,841.00</td>  
+  </tr>
+  <tr>
+    <td>72-0319553</td>
+    <td>11/15/2018</td>
+    <td>Delta Billing Solutions</td>
+   	<td>003542480056</td>
+    <td>1,404.55</td>
+    <td>1,404.55</td>  
+  </tr>
+  <tr>
+    <td>48-0319511</td>
+    <td>11/15/2018</td>
+    <td>Group Delta Consultants</td>
+   	<td>000266590002</td>
+    <td>675.00</td>
+    <td>675.00</td>  
+  </tr>
+  <tr>
+    <td>65-0319511</td>
+    <td>11/13/2018</td>
+    <td>Group Delta</td>
+   	<td>000266590005</td>
+    <td>954.00</td>
+    <td>954.00</td>    
+  </tr>
+  <tr>
+    <td>34-0319457</td>
+    <td>11/13/2018</td>
+    <td>Disney c/o Zero Chaos</td>
+   	<td>009102993000</td>
+    <td>3,025.00</td>
+    <td>3,025.00</td>  
+  </tr>
+  <tr>
+    <td>15-0319436</td>
+    <td>11/13/2018</td>
+    <td>TAD RESOURCES/DISNEYLAND</td>
+   	<td>CA0160890019</td>
+    <td>1,148.00</td>
+    <td>1,148.00</td>  
+  </tr>
+</table>
+
+</body>
+</html>
