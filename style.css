@@ -1,0 +1,147 @@
+.firstBox{
+  position: absolute;
+  width: 916px;
+  height: 222px;
+  left: 54px;
+  top: 167px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#customers {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #666666;
+    box-sizing: border-box;
+  }
+  
+  #customers td, #customers th {
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #455D7D;}
+
+  #customers tr:hover {color: #FFFFFF;}
+
+  #customers tr .fa-file-alt:hover {color: #FFFFFF;}
+  
+.fa-file-alt{
+    color: #006699;;
+  }
+
+.search{
+  border: 1px solid #666666;
+  box-sizing: border-box;
+
+}
+
+.search .invoice{
+  position: absolute;
+  width: 245px;
+  height: 23px;
+  left: 55px;
+  top: 113px;
+  background: #FFFFFF;
+}
+
+.search .filter{
+  position: absolute;
+  width: 250px;
+  height: 23px;
+  left: 381px;
+  top: 113px;       
+}
+.search .go{
+  position: absolute;
+  width: 34px;
+  height: 25px;
+  left: 646px;
+  top: 112px;
+}
+
+
+
+  /*
+  #customers .fa-file-alt:hover{
+    color:white;
+  }
+  */
+
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7995BB;
+    color: white;
+  }
+/*
+  .dropdown {
+    overflow: hidden;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  */
+
+.secondBox{
+  position: absolute;
+  width: 916px;
+  height: 407px;
+  left: 54px;
+  top: 412px;
+  padding-top: 10%;
+
+}
+.secondBox .customers {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 915px;
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.boxHeader {
+  border-collapse: collapse;
+  width: 916px;
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  height: 25px;
+  background: #7995BB
+}
+
+.customers td, #customers th {
+  padding: 8px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #455D7D;}
+
+.customers tr:hover {color: #FFFFFF;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7995BB;
+  color: white;
+}
+
+.info {
+  background: #FFFFFF;
+  color: black;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: normal;
+  border-collapse: collapse;
+  width: 916px;
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  height: 25px;
+}

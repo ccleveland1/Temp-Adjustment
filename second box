@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.customers {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 915px;
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.boxHeader {
+  border-collapse: collapse;
+  width: 916px;
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  height: 25px;
+  background: #7995BB
+}
+
+.customers td, #customers th {
+  padding: 8px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #455D7D;}
+
+.customers tr:hover {color: #FFFFFF;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7995BB;
+  color: white;
+}
+
+.info {
+  background: #FFFFFF;
+  color: black;
+  font-family: Roboto;
+
+  font-size: 14px;
+  line-height: normal;
+  border-collapse: collapse;
+  width: 916px;
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  height: 25px;
+}
+
+.search{
+	display: block;
+    float: left;
+}
+
+</style>
+</head>
+
+<body>
+
+  <table class="boxHeader">
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </table>
+
+  <table class="info">
+    <tr>
+      <th id="invoice">Invoice Date</th>
+      <th id="date">11/15/2017</th>
+      <th id="idNumber"></th>
+      <th></th>
+      <th id="firstPrice">1,404.55</th>
+      <th id="secondPrice">1,160.55</th>
+    </tr>
+  </table>
+   
+ <table class="customers"
+  <tr>
+    <th>Employee Name</th>
+    <th>Job Title</th>
+    <th>Charge</th>
+    <th>Unit/Hours</th>
+    <th>Bill Rate ($)</th>
+    <th>Tax ($)</th>    
+    <th>State</th> 
+    <th>Amount ($)</th> 
+    <th>Adjust</th> 
+  </tr>
+  <tr>
+    <td>Flythe, Zandra</td>
+    <td>Receptionist</td>
+    <td>STD</td>
+   	<td>40.0</td>
+    <td>18.00</td>
+    <td></td>    
+    <td></td>
+    <td>720.00</td>
+    <td></td> 
+  </tr>
+  <tr>
+    <td>Flythe, Zandra</td>
+    <td>Receptionist</td>
+    <td>OVR</td>
+   	<td>1.18</td>
+    <td>27.00</td>
+    <td></td>    
+    <td></td>
+    <td>3195</td>
+    <td></td> 
+  </tr>
+  <tr>
+    <td>Flythe, Zandra</td>
+    <td>Receptionist</td>
+    <td>ACAHC*</td>
+   	<td>40.0</td>
+    <td>18.00</td>
+    <td></td>    
+    <td></td>
+    <td>720.00</td>
+    <td></td>   
+  </tr>
+  <tr>
+    <td>72-0319553</td>
+    <td>11/15/2018</td>
+    <td>Delta Billing Solutions</td>
+   	<td>003542480056</td>
+    <td>1,404.55</td>
+    <td>1,404.55</td>  
+  </tr>
+  <tr>
+    <td>48-0319511</td>
+    <td>11/15/2018</td>
+    <td>Group Delta Consultants</td>
+   	<td>000266590002</td>
+    <td>675.00</td>
+    <td>675.00</td>  
+  </tr>
+  <tr>
+    <td>65-0319511</td>
+    <td>11/13/2018</td>
+    <td>Group Delta</td>
+   	<td>000266590005</td>
+    <td>954.00</td>
+    <td>954.00</td>    
+  </tr>
+  <tr>
+    <td>34-0319457</td>
+    <td>11/13/2018</td>
+    <td>Disney c/o Zero Chaos</td>
+   	<td>009102993000</td>
+    <td>3,025.00</td>
+    <td>3,025.00</td>  
+  </tr>
+  <tr>
+    <td>15-0319436</td>
+    <td>11/13/2018</td>
+    <td>TAD RESOURCES/DISNEYLAND</td>
+   	<td>CA0160890019</td>
+    <td>1,148.00</td>
+    <td>1,148.00</td>  
+  </tr>
+</table>
+
+</body>
+</html>
